@@ -31,11 +31,11 @@ app.listen(PORT, function() {
 // 	res.send(heroes);
 // })
 
-app.post('/api/hero', (req, res) => {
-	const hero = {
-		id: heroes.length > 0 ? Math.max(...heroes.map(hero => hero.id)) + 1: 11,
-		name: "new hero"
-	};
-	heroes.push(hero);
-	res.send(hero);
-})
+// app.post('/api/hero', (req, res) => {
+// 	const hero = {
+// 		id: heroes.length > 0 ? Math.max(...heroes.map(hero => hero.id)) + 1: 11,
+// 		name: "new hero"
+// 	};
+// 	heroes.push(hero);
+// 	res.send(hero);
+// })
