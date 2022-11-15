@@ -10,7 +10,7 @@
 /node_modules
 npm-debug.log
 yarn-error.log
-/server
+/server/
 
 # IDEs and editors
 .idea/
@@ -45,3 +45,8 @@ Thumbs.db
 #config Files
 
 /server/config/dev.js
+
+# asp_net_core
+
+/asp_net_core/restServer/bin/
+/asp_net_core/restServer/obj/
